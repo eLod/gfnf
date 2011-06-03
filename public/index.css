@@ -1,0 +1,156 @@
+html {
+    height: auto;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background: #262B33;
+    color: #fff;
+}
+
+a, input {
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    border: 0;
+}
+
+#wrapper {
+    width: 580px;
+    margin: 40px auto 20px auto;
+    padding: 10px;
+    background: white;
+    border: 1px solid #B6B6B6;
+    color: #4F4F4F;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+}
+
+#headline {
+    font-size: 1.2em;
+    border-bottom: 1px solid #979797;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+
+#content {
+    padding: 10px;
+}
+
+#myfooter {
+    font-size: 0.8em;
+    border-top: 1px solid #DDD;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+#dashboard {
+    margin-top: 0px;
+    font-size: 13px;
+}
+.pagehead {
+    background-image: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+.pagehead ul.tabs {
+    margin: 0px;
+    height: auto;
+    overflow: auto;
+    background-color: rgb(220, 220, 220);
+    padding-bottom: 0px;
+}
+.pagehead ul.tabs li {
+    float: left;
+    display: block;
+    padding-bottom: 6px;
+}
+.pagehead ul.tabs li a {
+    margin-right: 5px;
+    float: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.pagehead .tabs .nofilter {
+    margin-right: 10px;
+}
+.pagehead .tabs .edit {
+    background: url('https://d3nwyuy0nl342s.cloudfront.net/images/modules/header/advanced_search_icon.png') 50% 50% no-repeat;
+}
+.pagehead .tabs .edit:hover {
+    background-color: transparent;
+}
+.pagehead .tabs .delete {
+    background: url('https://d3nwyuy0nl342s.cloudfront.net/images/modules/flash/close.png') 50% 50% no-repeat;
+    margin-right: 10px;
+}
+.pagehead .tabs .delete:hover {
+    background-color: transparent;
+}
+.pagehead .tabs .create {
+    color: #fff;
+    background: #333;
+    text-shadow: none;
+    margin-right: 0px;
+}
+
+#change {
+    font-size: 0.8em;
+}
+
+#filter_form {
+    width: 240px;
+    position: absolute;
+    display: none;
+    padding: 5px;
+    background: white;
+    border: 1px solid #B6B6B6;
+    color: #4F4F4F;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+}
+#filter_name {
+    width: 230px;
+    margin-bottom: 10px;
+}
+#filter_langs,
+#filter_users {
+    width: 110px;
+    height: 100px;
+}
+#filter_langs {
+    margin-right: 10px;
+}
+#filter_repos {
+    width: 230px;
+    height: 100px;
+    margin-top: 10px;
+}
+#filter_form label {
+    font-size: 0.8em;
+    padding-left: 3px;
+}
+#filter_save,
+#filter_cancel {
+    padding: 2px 4px;
+}
+#filter_save {
+    margin-right: 10px;
+}
